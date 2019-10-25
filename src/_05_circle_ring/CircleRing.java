@@ -10,7 +10,14 @@ public class CircleRing {
     public static void main(String[] args) throws Exception {
 
         // 1. Make a new Robot
-
+Robot rob = new Robot();
+rob.moveTo(150, 200);
+rob.penDown();
+rob.setSpeed(10);
+for (int i = 0; i < 300; i++) {
+rob.move(3);
+rob.turn(1);
+}
 
        //  2. Set your robot’s position to x=150 and y=200
 

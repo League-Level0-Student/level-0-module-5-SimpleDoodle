@@ -24,10 +24,13 @@ public static void main(String[] args) {
 //			System.out.println(e + " odd");
 //		}
 //	}
-	for (int f = 0; f < 778; f++) {
-		if (0==f%7) {
-			System.out.println(f);
-		}
+//	for (int f = 0; f < 778; f++) {
+//		if (0==f%7) {
+//			System.out.println(f);
+//		}
+//	}
+	for (int i = 0; i < args.length; i++) {
+		
 	}
 }
 }

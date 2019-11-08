@@ -39,15 +39,23 @@ public class ForLoopGauntlet {
 //	System.out.println(i +" "+ j);	
 //	}
 //}
-	int a=2;
-	int b=3;
-for (int i = 1; i < 10; i+=3) {
-	
-	for (int j = 0; j < 1; j++) {
-	System.out.println(i+" "+a+" "+b);
-	a+=3;
-	b+=3;
-	}
-}
+//	int a=2;
+//	int b=3;
+//for (int i = 1; i < 10; i+=3) {
+//	for (int j = 0; j < 1; j++) {
+//	System.out.println(i+" "+a+" "+b);
+//	a+=3;
+//	b+=3;
+//	}
+//}
+		int a = 2;
+		int b = 3;
+		for (int i = 1; i < 11; i++) {
+			for (int j = 0; j < 1; j++) {
+				System.out.println(i + " " + a + " " + b);
+				a += 3;
+				b += 3;
+			}
+		}
 	}
 }
